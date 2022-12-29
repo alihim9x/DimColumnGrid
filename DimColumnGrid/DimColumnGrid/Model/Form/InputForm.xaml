@@ -1,0 +1,43 @@
+﻿<Window x:Class="Model.Form.InputForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Model.Form"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" Width="430.473">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Dimension Type :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,17,0,0"
+               FontSize="15" Background="AliceBlue" Height="30" Width="123"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="232,21,0,0" Background="AliceBlue"
+                  FontSize="15" ItemsSource="{Binding SettingView.DimensionTypes}" DisplayMemberPath="Name"
+                  SelectedItem="{Binding SettingView.Setting.DimensionType}" Height="26"/>
+
+        <Button Content="Dim PileCap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="75,210,0,0"
+                FontSize="15" Background="AliceBlue" Click="DimPileCap_Click" Height="24"/>
+        <Button Content="Dim SpunPile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="240,210,0,0"
+            FontSize="15" Background="AliceBlue" Click="DimSpunPile_Click" Height="24"/>
+        <Label Content="Revit Links :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,118,0,0"
+            FontSize="15" Background="AliceBlue" Height="30" Width="167"/>
+        <Button Content="Select Revit Link" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="232,118,0,0"
+            FontSize="15" Background="AliceBlue" Click="SelectRevitLink_Click" Height="30"/>
+        <Label Content="Dimension Offset :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,67,0,0"
+            FontSize="15" Background="AliceBlue" Height="30" Width="123"/>
+        <Grid DataContext="{Binding SettingView}">
+            <TextBox HorizontalAlignment="Left" Height="30" Margin="233,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="15" Background="AliceBlue"
+                     Text="{Binding OffsetDim}"/>
+            
+            <Button Content="Select PileCap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="232,164,0,0"
+                FontSize="15" Background="AliceBlue" Click="SelectPileCap_Click" Height="30"/>
+
+        </Grid>
+        
+
+
+    </Grid>
+</Window>

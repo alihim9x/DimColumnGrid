@@ -1,0 +1,15 @@
+E:\Hoc\RevitApi\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.csprojResolveAssemblyReference.cache
+E:\Hoc\RevitApi\DimColumnGrid\DimColumnGrid\DimColumnGrid\bin\Debug\DimColumnGrid.dll
+E:\Hoc\RevitApi\DimColumnGrid\DimColumnGrid\DimColumnGrid\bin\Debug\DimColumnGrid.pdb
+E:\Hoc\RevitApi\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.dll
+E:\Hoc\RevitApi\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.pdb
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\bin\Debug\DimColumnGrid.dll
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\bin\Debug\DimColumnGrid.pdb
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.csprojResolveAssemblyReference.cache
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\Model\Form\InputForm.g.cs
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid_MarkupCompile.cache
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid_MarkupCompile.lref
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\Model\Form\InputForm.baml
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.g.resources
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.dll
+D:\Kien\Study\Revit Api\DimColumnGrid\DimColumnGrid\DimColumnGrid\obj\Debug\DimColumnGrid.pdb
